@@ -25,8 +25,7 @@ i3lock-next is a Python 3 script and C helper program much like i3lock-fancy. i3
 %autosetup
 
 %build
-%make_build PREFIX=/usr/
-
+%make_build PREFIX=/usr
 
 %install
 rm -rf %{buildroot}
